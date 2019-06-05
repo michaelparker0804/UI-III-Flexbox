@@ -64,3 +64,157 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	width: 1000px;
+	margin: auto;
+}
+
+header{
+	font: 'Titillium Web', sans-serif;
+	color: light-gray;
+}
+
+header nav{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav a{
+	color: gray;
+    text-decoration: none;
+}
+
+h1{
+	font-size: 80px;
+	text-align: center;
+}
+
+.button{
+	width: 140px;
+	font-size: 16px;
+	text-align: center;
+	border: solid 1px gray;
+	padding: 10px 30px 10px 30px;
+	margin: 20px auto;
+}
+
+.section-zero{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.first-section {
+	border-top: solid 1px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.first-section .section{
+	width: 480px;
+	font-size: 18px;
+}
+
+.middle-img{
+width: 1000px;
+}
+
+.second-section{
+	border-bottom: solid 1px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.second-section .section{
+	width: 320px;
+	font-size: 18px;
+}
+
+footer{
+	margin-top: 40px;
+}
+
+.copyright{
+	text-align: center;
+	font-size: 10px;
+	margin: 40px;
+}
+
+.services-header-img{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 1000px;
+}
+
+.services-desc{
+	padding-bottom: 40px;
+	border-bottom: solid 1px;
+}
+
+.services-desc h2{
+	font-size: 24px;
+}
+
+.services-desc p{
+	line-height: 20px;
+}
+
+.services-main{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 40px;
+	justify-content: space-between;
+}
+
+.services-main .main-child{
+	width: 475px;
+	padding: 20px;
+	margin-bottom: 40px;
+	border: solid 1px;
+	background-color: #D3D3D3;
+}
+
+.services-main .main-child p{
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+
+.services-main .main-child button{
+	width: 150px;
+	height: 25px;
+	border-radius: 10px;
+	background-color: white;
+	align-content: center;
+}
+
+.services-bottom-section{
+	padding-top: 40px;
+	border-top: solid 1px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.services-bottom-section p{
+	width: 500px;
+	padding-bottom: 20px;
+	line-height: 20px;
+}
+
+.services-bottom-section ul{
+	padding-left: 25px;
+	line-height: 20px;
+}
+
+.services-copyright{
+	text-align: center;
+	font-size: 10px;
+	margin: 40px;
+}
